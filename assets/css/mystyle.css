@@ -1,0 +1,295 @@
+
+.hero-slider .Inner {
+	display:flex;
+	flex-direction:column;
+	justify-content:center;
+	width:50%;
+	height:100%;
+}
+
+.tp-leftarrow tparrows,
+.tp-rightarrow tparrows { display:none !important;}
+
+
+.tp-parallax-wrap {
+	left:20% !important;
+}
+
+.hero-slider .Tagline {
+	font-size:18px;
+	line-height:22px;
+	text-transform:uppercase;
+	font-weight:600;
+	color:#212618;
+	margin:0;
+	padding:0;
+}
+
+
+.Introduction {
+	background:#212618;
+	color:#a9ad9b;
+	margin-top:50px;
+}
+.Introduction .Inner {
+	padding:50px 0 50px 20px;
+}
+.Introduction .picture {
+	position:relative;
+}
+.Introduction .picture img { margin-top:-80px;}
+
+
+h3.Lrg {
+	font-size:26px;
+	line-height:30px;
+	margin:0 0 12px 0;
+	font-weight:500;
+}
+
+#about-me .Right {
+	margin-top:30px;
+}
+
+
+#Services {
+	background:#212618;
+	padding:50px 20px;
+	text-align:center;
+	color:#a9ad9b;
+		-webkit-border-radius:30px;
+	border-radius:30px;
+	margin-top:80px;
+}
+#Services h2,
+#Services h3,
+#Services h3 a { color:#fff;}
+
+#Services .Box img {
+	height:150px;
+	width:150px;
+		-webkit-border-radius:100%;
+	border-radius:100%;
+	margin-bottom:15px;
+		-webkit-transition: 0.5s ease;
+	transition: 0.5s ease;
+}
+#Services .Box:hover img {
+		-webkit-transform:scale(1.2);
+	transform:scale(1.2);
+}
+#Services .Box:hover h3 a { color:#cf9d4b;}
+
+
+#five-steps-to-success { background:#f6f7f1;}
+
+#AboutPage .feature-box > img {
+    height: 50px;
+    margin-bottom: 10px;
+    margin-top: 15px;
+}
+
+#About-Section2 {
+    margin-top: 0;
+    background: #212618;
+    padding: 50px;
+    border-radius: 15px;
+    color: #a9ad9b;
+}
+#About-Section2 p {
+	margin-bottom:25px;
+}
+
+.MainWrapper { padding:80px 0;}
+
+.ContactPage {
+	margin-top:5%;
+	padding-top:3%;
+	border-top:1px solid #ddd;
+}
+.ContactPage .row .box {
+	background:#212618;
+	padding:20px 40px;
+		-webkit-border-radius:30px;
+	border-radius:30px;
+}
+.ContactPage .row .box h3 { margin-bottom:20px;}
+.ContactPage .row .box .promoted { color:#cf9d4b;}
+
+
+
+#ServicesPage .btn { margin-top:15px;}
+#ServicesPage > .container > .row { margin-bottom:30px;}
+#ServicesPage .Mobile { display:none;}
+
+
+
+@media All and (max-width:1601px) {
+	.tp-parallax-wrap {
+		left:14% !important;
+	}
+}
+
+
+@media All and (max-width:1480px) {
+	
+}
+
+
+@media All and (max-width:1370px) {
+	
+}
+
+
+@media All and (max-width:1280px) {
+	.tp-parallax-wrap {
+		left:25px !important;
+	}
+}
+
+
+@media All and (max-width:1200px) {
+	.container {
+        width: 100%;
+        padding: 0 20px;
+    }
+}
+
+
+@media All and (max-width:992px) {
+	.navigation .main-nav .brand img {
+		height: 70px;
+	}
+	
+	.navigation .main-nav {
+		padding-top: 10px;
+		padding-bottom: 10px;
+	}
+	
+	.hero-slider .Tagline {
+		font-size: 14px;
+		line-height: 20px;
+	}
+	
+	#about-me.block {
+        padding: 0 0 20px 0;
+    }
+	
+	#five-steps-to-success.block {
+		padding:25px 0;
+		/*text-align:center;*/
+	}
+	.steps .step {
+		padding-right: 0;
+	}
+	.steps hr { display:none;}
+	
+	#ServicesPage .Desktop { display:none;}
+	#ServicesPage .Mobile { display:block;}
+	#ServicesPage h2 { margin-bottom:20px;}
+	
+	.steps .step figure aside {
+		margin-bottom: 0;
+	}
+	.steps .step { margin-bottom:10px;}
+	.steps .step figure { height:auto;}
+	.steps .step h3 { margin:0;}
+	.steps .step figure .bar.height-20 {height:20px;}
+	.steps .step figure .bar.height-40 {height:40px;}
+	.steps .step figure .bar.height-60 {height:60px;}
+	.steps .step figure .bar.height-80 {height:80px;}
+	.steps .step figure .bar.height-100 {height:100px;}
+}
+
+
+@media All and (max-width:768px) {
+	h2 { font-weight:400;}
+	
+	h3.Lrg {
+		font-size: 20px;
+		line-height: 28px;
+		margin: 0 0 10px 0;
+	}
+
+	.Introduction .picture {
+		text-align: center;
+		padding-top: 30px;
+	}
+	.Introduction .picture img {
+		margin-top: 0;
+	}
+	.Introduction .Inner {
+		padding: 15px 0 30px 0;
+		text-align: center;
+	}
+	
+	#about-me h2,
+	#about-me .Center,
+	.numbers .number { text-align:center;}
+	
+	#Services {
+		background: #212618;
+		padding: 20px 20px;
+		text-align: center;
+		color: #a9ad9b;
+		-webkit-border-radius: 15px;
+		border-radius: 15px;
+		margin-top: 40px;
+	}
+	
+	.numbers .number figure {
+		font-size: 30px;
+		line-height: 30px;
+	}
+	
+	#five-steps-to-success h2 { margin-bottom:0;}
+	
+	#footer .right { display:none;}
+	
+	#AboutPage .Inner {
+		background:#f6f7f1;
+		padding:20px;
+		text-align:center;
+	}
+	
+	#CarouselWrapper .box {
+		padding: 20px;
+			-webkit-border-radius: 15px;
+		border-radius: 15px;
+	}
+	#About-Section2 {
+		margin-bottom: 5%;
+	}
+	.heading {
+		/*margin-bottom: 40px;*/
+		padding: 20px 0;
+	}
+	.heading h1 {
+		font-size: 22px;
+		line-height: 28px;
+		text-align: center;
+	}
+	
+	.MainWrapper { padding:40px 0;}
+	
+	.feature-circle .image .arrow { display:none;}
+	
+	.ContactPage .row .box {
+		margin-top:20px;
+		height:auto !important;
+	}
+	
+	a.link.underline {
+		border-bottom-width: 2px;
+		margin-top: 20px;
+	}
+	.hero-slider h1 {
+        font-size: 22px;
+        line-height: 24px;
+    }
+	
+	#About-Section2 {
+		padding: 25px;
+		border-radius: 10px;
+	}
+}
